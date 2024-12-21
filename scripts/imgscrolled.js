@@ -1,10 +1,10 @@
 // Array sumber gambar
 const imgSources = [
-  "../assets/pagimotley/img/guiding.webp",
-  "../assets/pagimotley/img/production4.webp",
-  "../assets/pagimotley/img/nature.webp",
-  "../assets/pagimotley/img/product8.webp",
-  "../assets/pagimotley/img/production5.webp",
+  "assets/pagimotley/img/guiding.webp",
+  "assets/pagimotley/img/production4.webp",
+  "assets/pagimotley/img/nature.webp",
+  "assets/pagimotley/img/product8.webp",
+  "assets/pagimotley/img/production5.webp",
 ];
 
 // Referensi ke elemen about-img
