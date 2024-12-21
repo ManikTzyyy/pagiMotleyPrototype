@@ -3,31 +3,31 @@ const services = {
   1: {
     title: "Custom Design & Personalization",
     content: "Experience fashion made just for you. Customize designs, colors, and patterns inspired by nature and crafted with traditional techniques.",
-    img: "../assets/pagimotley/img/drawing.webp",
+    img: "assets/pagimotley/img/drawing.webp",
     icon: "fa-pen",
   },
   2: {
     title: "Natural Dyeing & Eco-Friendly Fashion",
     content: "We specialize in eco-conscious clothing created with natural dyes from plants and herbs, ensuring sustainable beauty and timeless elegance.",
-    img: "../assets/pagimotley/img/fashion.webp",
+    img: "assets/pagimotley/img/fashion.webp",
     icon: "fa-leaf",
   },
   3: {
     title: "Artisanal Craftsmanship",
     content: "Each piece is carefully handcrafted by skilled artisans, reflecting cultural heritage and unmatched attention to detail.",
-    img: "../assets/pagimotley/img/production2.webp",
+    img: "assets/pagimotley/img/production2.webp",
     icon: "fa-hand-sparkles",
   },
   4: {
     title: "Limited Edition Collections",
     content: "Explore exclusive, limited-edition collections that celebrate art, culture, and modern design in every stitch.",
-    img: "../assets/pagimotley/img/product1.webp",
+    img: "assets/pagimotley/img/product1.webp",
     icon: "fa-gem",
   },
   5: {
     title: " Cultural Workshops & Experiences",
     content: "Join us for hands-on workshops where you can learn traditional dyeing and crafting techniques while connecting with local artisans.",
-    img: "../assets/pagimotley/img/production4.webp",
+    img: "assets/pagimotley/img/production4.webp",
     icon: "fa-palette",
   },
 };
