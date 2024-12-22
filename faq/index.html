@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FAQ</title>
+    <link rel="icon" type="image/png" href="../assets/logo/pagimotley.webp" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <!-- mycss -->
+    <link rel="stylesheet" href="../style/style.css" />
+    <link rel="stylesheet" href="./faq.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div id="navbar">
+      <div class="navbar">
+        <div class="logo">
+          <img src="../assets/logo/pagimotley.webp" alt="" />
+        </div>
+        <div class="nav-list" id="navList">
+          <a href="../">HOME</a>
+          <a href="../productCatalogue/">PRODUCT</a>
+          <a href="../about/">ABOUT</a>
+          <a href="../contact/">CONTACT</a>
+        </div>
+        <div class="bar">
+          <a href="javascript:void(0);" id="menuToggle"
+            ><i class="fa-solid fa-angle-down" id="menuIcon"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <!-- End Navbar -->
+
+    <section id="header-hero">
+      <h1>Frequently Asked Question</h1>
+      
+    </section>
+
+    <section id="faq">
+        <input
+        type="text"
+        id="faqSearch"
+        placeholder="Search FAQs..."
+        oninput="filterFAQs()"
+      />
+      <h3>About Pagi Motley & Wastra Pagi</h3>
+      <div class="accordion">
+        <div class="accordion-item">
+          <div class="accordion-header" onclick="toggleAccordion(this)">
+            What is Pagi Motley?
+          </div>
+          <div class="accordion-content">
+            Pagi Motley is a company dedicated to promoting art and creativity
+            through natural dyes made from organic materials.
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header" onclick="toggleAccordion(this)">
+            Who is your target audience?
+          </div>
+          <div class="accordion-content">
+            Our primary audience is travelers and tourists who appreciate
+            sustainable, nature-inspired products and art.
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header" onclick="toggleAccordion(this)">
+            What is Wastra Pagi's mission?
+          </div>
+          <div class="accordion-content">
+            Wastra Pagi aims to showcase the beauty of natural dye craftsmanship
+            and support cultural heritage through eco-friendly products.
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header" onclick="toggleAccordion(this)">
+            What products do you offer?
+          </div>
+          <div class="accordion-content">
+            We offer a variety of items, including naturally dyed clothing,
+            accessories, and other artisan crafts made with sustainable methods.
+          </div>
+        </div>
+      </div>
+      <h3>About Product</h3>
+      <div class="accordion">
+        <div class="accordion-item">
+          <div class="accordion-header" onclick="toggleAccordion(this)">
+            What are your products made of?
+          </div>
+          <div class="accordion-content">
+            Our products are made using natural dyes sourced from plants,
+            fruits, and other organic materials, ensuring eco-friendliness and
+            sustainability.
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header" onclick="toggleAccordion(this)">
+            What makes your products unique?
+          </div>
+          <div class="accordion-content">
+            Our products combine traditional craftsmanship with modern designs,
+            creating items that are both timeless and environmentally conscious.
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header" onclick="toggleAccordion(this)">
+            Are your products handmade?
+          </div>
+          <div class="accordion-content">
+            Yes, all our products are handcrafted by skilled artisans, ensuring
+            each piece is unique and made with care.
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header" onclick="toggleAccordion(this)">
+            What types of products do you offer?
+          </div>
+          <div class="accordion-content">
+            We offer naturally dyed clothing, scarves, bags, home decor, and
+            other artisan crafts, each reflecting our commitment to quality and
+            sustainability.
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header" onclick="toggleAccordion(this)">
+            Are your products suitable for gifting?
+          </div>
+          <div class="accordion-content">
+            Absolutely! Our products make perfect gifts for those who value
+            sustainability, artistry, and unique designs.
+          </div>
+        </div>
+      </div>
+      <h3>About Payment</h3>
+      <div class="accordion">
+        <div class="accordion-item">
+          <div class="accordion-header" onclick="toggleAccordion(this)">
+            What payment methods do you accept?
+          </div>
+          <div class="accordion-content">
+            We currently accept payments through bank transfers. Detailed
+            instructions will be provided during the checkout process.
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header" onclick="toggleAccordion(this)">
+            How do I complete a bank transfer payment?
+          </div>
+          <div class="accordion-content">
+            After placing your order, you'll receive our bank account details.
+            Simply transfer the payment amount and send us the proof of payment
+            via email or WhatsApp.
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header" onclick="toggleAccordion(this)">
+            Are there any additional fees for bank transfers?
+          </div>
+          <div class="accordion-content">
+            Any bank transfer fees depend on your bank's policy. Please confirm
+            with your bank to avoid unexpected charges.
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header" onclick="toggleAccordion(this)">
+            How long does it take to process my payment?
+          </div>
+          <div class="accordion-content">
+            Payments are typically processed within 1-2 business days after we
+            receive the proof of payment. You'll receive a confirmation once the
+            payment is verified.
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header" onclick="toggleAccordion(this)">
+            What should I do if I encounter an issue with the payment?
+          </div>
+          <div class="accordion-content">
+            If you face any issues during payment, please contact our customer
+            service team with the details. We're here to assist you.
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header" onclick="toggleAccordion(this)">
+            Do you provide refunds for canceled orders?
+          </div>
+          <div class="accordion-content">
+            Yes, refunds are available for eligible cancellations. Please refer
+            to our refund policy for more details.
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header" onclick="toggleAccordion(this)">
+            Can I pay using a credit card or other methods?
+          </div>
+          <div class="accordion-content">
+            Currently, we only accept bank transfers. We are working to add more
+            payment options in the future.
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header" onclick="toggleAccordion(this)">
+            What currency do you accept for payments?
+          </div>
+          <div class="accordion-content">
+            All payments must be made in Rupiah, unless stated otherwise during
+            checkout.
+          </div>
+        </div>
+      </div>
+      <h3>About Terms and Conditions</h3>
+      <div class="accordion">
+        <div class="accordion-item">
+          <div class="accordion-header" onclick="toggleAccordion(this)">
+            What are your general terms and conditions?
+          </div>
+          <div class="accordion-content">
+            By using our services, you agree to our terms, which include
+            adhering to payment deadlines, proper use of our products, and
+            compliance with local laws.
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header" onclick="toggleAccordion(this)">
+            Can I cancel my order after payment?
+          </div>
+          <div class="accordion-content">
+            Orders can only be canceled before shipment. Cancellation policies
+            and potential fees are detailed in our refund and cancellation
+            policy.
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header" onclick="toggleAccordion(this)">
+            What happens if my order is damaged upon delivery?
+          </div>
+          <div class="accordion-content">
+            If your order is damaged during shipping, please contact us within
+            48 hours of delivery with photos of the damaged item for resolution.
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header" onclick="toggleAccordion(this)">
+            Do you have a privacy policy?
+          </div>
+          <div class="accordion-content">
+            Yes, we are committed to protecting your personal information. Our
+            privacy policy details how your data is collected, used, and
+            safeguarded.
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header" onclick="toggleAccordion(this)">
+            What are your shipping and delivery terms?
+          </div>
+          <div class="accordion-content">
+            Shipping times and delivery terms vary based on location. Estimated
+            delivery times are provided during checkout. Any delays will be
+            communicated promptly.
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header" onclick="toggleAccordion(this)">
+            Are there any restrictions on product use?
+          </div>
+          <div class="accordion-content">
+            Our products are intended for personal use only and not for resale.
+            Any misuse of the products may void warranties or result in legal
+            action.
+          </div>
+        </div>
+        <div class="accordion-item">
+          <div class="accordion-header" onclick="toggleAccordion(this)">
+            How do I resolve a dispute or issue?
+          </div>
+          <div class="accordion-content">
+            For any disputes or issues, please contact our customer service. If
+            unresolved, arbitration or legal actions may be pursued as per
+            applicable laws.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer  -->
+    <section id="footer">
+      <div class="container">
+        <div class="content row">
+          <div class="link-wrapper row">
+            <div class="link about column">
+              <h4>About</h4>
+              <a href="../about/">About us</a>
+              <a href="../about/#team">Team</a>
+              <a href="../productCatalogue/">Product</a>
+            </div>
+            <div class="link support column">
+              <h4>Support</h4>
+              <a href="../contact/">Contact us</a>
+              <a href="">Whatsapp</a>
+              <a href="">Instagram</a>
+            </div>
+            <div class="link FAQ column">
+              <h4>FAQ</h4>
+              <a href="#product">Product</a>
+              <a href="#payment">Payment</a>
+              <a href="#">Terms & Condition</a>
+            </div>
+          </div>
+          <div class="social column">
+            <h4>Natural Dye</h4>
+            <p>
+              Every piece tells a story of craftsmanship, nature, and elegance,
+              bringing eco-friendly fashion to your wardrobe.
+            </p>
+            <div class="content-social row">
+              <a href=""><i class="fa-brands fa-facebook"></i></a>
+              <a href=""><i class="fa-brands fa-instagram"></i></a>
+              <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+        <p class="copy">Copyright 2024 All Right Reserved.</p>
+      </div>
+    </section>
+    <!-- end footer -->
+    <!-- scripts -->
+    <script src="../scripts/navbar.js"></script>
+
+    <script src="../scripts/faq.js"></script>
+
+    <script>
+      function toggleAccordion(header) {
+        const content = header.nextElementSibling;
+        content.style.display =
+          content.style.display === "block" ? "none" : "block";
+      }
+    </script>
+  </body>
+</html>

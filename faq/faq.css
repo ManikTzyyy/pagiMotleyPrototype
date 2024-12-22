@@ -1,0 +1,49 @@
+
+
+
+
+#faq h3 {
+    font-weight: 500;
+}
+
+#faq {
+    padding: 20px;
+}
+
+.accordion {
+    margin: 1em 0;
+  }
+
+
+  #faqSearch {
+    width: 100%;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  
+  .accordion-item {
+    border: 1px solid #ddd;
+    margin-bottom: 0.5em;
+  }
+  
+  .accordion-header {
+    background: rgb(47, 47, 47);
+    color: white;
+    padding: 1em;
+    cursor: pointer;
+    font-weight: 500;
+  }
+
+  .accordion-header::after {
+    content: ">";
+  }
+  
+  .accordion-content {
+    display: none;
+    padding: 1em;
+    background: #f9f9f9;
+  }
