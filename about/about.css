@@ -25,6 +25,8 @@
   justify-content: center;
 }
 
+
+
 #company-profile .goal, #company-profile .achiv {
   max-width: 300px;
 
@@ -121,6 +123,9 @@
 }
 
 @media (max-width: 480px) {
+  #company-profile .achiv {
+    padding: 0 30px;
+  }
 }
 
 @media (max-width: 768px) {

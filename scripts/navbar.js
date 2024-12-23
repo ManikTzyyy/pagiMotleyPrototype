@@ -9,6 +9,18 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   });
 
+  // button download brochure scroll
+  window.addEventListener("scroll", () => {
+    const brochure = document.getElementById("brochure");
+    if (window.scrollY > 50) {
+      brochure.classList.add("showed");
+    } else {
+      brochure.classList.remove("showed");
+    }
+  });
+
+
+
   // Toggle menu visibility dan ikon pada menu
   const menuToggle = document.getElementById("menuToggle");
   const navList = document.getElementById("navList");
