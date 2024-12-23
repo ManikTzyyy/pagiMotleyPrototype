@@ -783,6 +783,13 @@ p {
     margin-top: 5rem;
     overflow: hidden;
   }
+  #showcase-mobile .content:hover .img-container {
+    /* animation-play-state: paused; */
+    overflow: auto;
+  }
+  #showcase-mobile .content:hover {
+    overflow: auto;
+  }
 
   @keyframes scrollLeft {
     to {
@@ -967,6 +974,25 @@ p {
   #product-show h2 {
     margin: 0 10px;
     text-align: center;
+  }
+
+  #showcase .content {
+    flex-wrap: wrap;
+  }
+
+  #showcase .title-wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #showcase .title-wrapper .text {
+    width: 100%;
+    gap: 20px;
+  }
+
+  #showcase .content .img-container {
+    width: 820px;
   }
 
   /* footer */
