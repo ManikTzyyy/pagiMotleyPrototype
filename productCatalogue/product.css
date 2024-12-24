@@ -2,8 +2,18 @@
   display: none;
 }
 
+#product-show .container{
+  padding-top: 10px;
+}
+
+#product-show .container{
+  text-align: center;
+}
+
 #product-show .content {
+  width: 100%;
   gap: 10px;
+  justify-content: center;
   
 }
 
@@ -11,10 +21,26 @@
   #product-show .card-product {
     position: relative;
     height: 200px;
-    width: 150px;
+    width: 45vw;
     overflow: hidden;
     border-radius: 20px;
    
+  }
+
+  #product-show .content {
+    width: 100%;
+    gap: 0;
+    justify-content: space-evenly;
+    
+  }
+
+
+
+  #product-show .content {
+    gap: 0;
+    padding: 0;
+    margin: 0;
+    
   }
   #product-show .card-product .button-buy {
     display: none;

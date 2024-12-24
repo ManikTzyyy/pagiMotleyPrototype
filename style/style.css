@@ -14,6 +14,11 @@ html {
   padding: 0;
 }
 
+
+* {
+  --main-clr: #263056
+}
+
 .column {
   display: flex;
   flex-direction: column;
@@ -33,25 +38,25 @@ html {
 
 /* typografi */
 h1 {
-  font-size: 60px;
+  font-size: 40px;
   /* font-weight: bold; */
   letter-spacing: 0.2em;
 }
 h2 {
-  font-size: 37px;
+  font-size: 28px;
   /* font-weight: bold; */
 }
 h3 {
   font-size: 20px;
 }
 h4 {
-  font-size: 15px;
+  font-size: 13px;
 }
 h5 {
   font-size: 8px;
 }
 p {
-  font-size: 12px;
+  font-size: 10px;
 }
 /* ================= */
 
@@ -83,7 +88,7 @@ p {
 
 .navbar .logo p {
   color: white;
-  font-size: 20px;
+  font-size: 15px;
   padding: 10px 0;
   letter-spacing: 0.2em;
   z-index: 99;
@@ -150,7 +155,7 @@ p {
 
 /* button white*/
 .button-w a {
-  background-color: #000080;
+  background-color: var(--main-clr);
   text-decoration: none;
   color: white;
   padding: 10px 15px;
@@ -169,7 +174,7 @@ p {
 }
 
 .button-b a {
-  background-color: #000080;
+  background-color: var(--main-clr);
   text-decoration: none;
   color: white;
   padding: 10px 15px;
@@ -230,7 +235,7 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #000000;
+  background-color: var(--main-clr);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -248,6 +253,8 @@ p {
 #loading-screen .logo {
   width: 150px;
   height: 150px;
+  object-fit: cover;
+  object-position: center;
   animation: fadeInOut 3s infinite;
 }
 
@@ -779,7 +786,7 @@ p {
 /* footer */
 #footer {
   position: relative;
-  background-color: #000080;
+  background-color: var(--main-clr);
   color: white;
   width: 100%;
 }
@@ -1051,7 +1058,7 @@ p {
   }
 
   .navbar .bar p {
-    font-size: 20px;
+    font-size: 15px;
   }
 
   /* Show nav-list when bar is active */
