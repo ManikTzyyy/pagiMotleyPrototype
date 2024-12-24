@@ -753,7 +753,7 @@ p {
 #content-landing-page .container .img-wrapper{
   overflow: hidden;
   position: relative;
-  width: 90vw;
+  width: 560px;
   height: 315px;
 }
 
@@ -914,6 +914,8 @@ p {
     overflow: auto;
   }
 
+
+
   @keyframes scrollLeft {
     to {
       left: -1050px;
@@ -1055,6 +1057,12 @@ p {
   /* Show nav-list when bar is active */
   .navbar .nav-list.active {
     top: 0%;
+  }
+
+  #content-landing-page .container .img-wrapper{
+  
+    width: 90vw;
+    
   }
 
   /* hero */
