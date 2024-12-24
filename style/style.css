@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 html {
   scroll-behavior: auto;
@@ -82,6 +81,16 @@ p {
   z-index: 99;
 }
 
+.navbar .logo p {
+  color: white;
+  font-size: 20px;
+  padding: 10px 0;
+  letter-spacing: 0.2em;
+  z-index: 99;
+  position: relative;
+
+}
+
 .navbar .logo img {
   width: 50px;
   height: 50px;
@@ -109,6 +118,8 @@ p {
   display: inline-block;
   transition: all 0.3s ease;
   font-size: 15px;
+  letter-spacing: 0.3em;
+  text-transform: capitalize;
 }
 
 .navbar .bar {
@@ -131,7 +142,7 @@ p {
 }
 
 #navbar.scrolled {
-  background: #000080; /* Ubah sesuai keinginan */
+  background: black; /* Ubah sesuai keinginan */
   box-shadow: 0 5px 10px #1a1a1d23;
 }
 
@@ -495,6 +506,14 @@ p {
   align-items: center;
 }
 
+#product-show .card-product .container-info .price {
+  text-align: end;
+}
+
+#product-show .card-product .container-info .price h4 {
+  font-weight: 600;
+}
+
 /* end product show */
 
 /* the color */
@@ -548,7 +567,7 @@ p {
   padding: 10px 10px 0 10px;
   z-index: 5;
   color: white;
-  bottom: -145px;
+  top: 145px;
   left: 0;
   transition: all 0.3s ease;
 }
@@ -559,7 +578,7 @@ p {
 }
 
 #the-color .content .img-container:hover .text-wrapper {
-  bottom: -40%;
+  top: 0;
   background-color: rgba(0, 0, 0, 0.29);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
@@ -638,16 +657,46 @@ p {
   bottom: 5px;
   z-index: 999;
   transition: all 0.3s ease;
-  left: -50%;
+  left: -100%;
+  bottom: 0;
+  
+}
+
+
+
+#brochure .button-b {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  
 }
 
 #brochure .button-b a {
-  filter: drop-shadow(2px 2px 10px gray);
+  background-color: black;
+  filter: drop-shadow(2px 2px 10px rgba(128, 128, 128, 0.186));
+  
+}
+
+#brochure.showed:hover{
+  left: 10px;
+  cursor: pointer;
+  
 }
 
 #brochure.showed {
   display: block;
-  left: 20px;
+  left: -162px;
+}
+
+#brochure .fa-solid {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  background-color: black;
+  border-radius: 50%;
+  font-size: 20px;
+  
 }
 /* end brochure */
 
@@ -891,7 +940,7 @@ p {
 
   /* Style for nav-list on mobile */
   .navbar .nav-list {
-    background-color: #000080;
+    background-color: black;
     position: absolute;
     justify-content: center;
     align-items: center;
@@ -899,11 +948,11 @@ p {
     flex-direction: column;
     z-index: 10;
     transition: all 0.4s ease;
-    top: -520%;
+    top: -400px;
     width: 100%;
     height: auto;
     gap: 20px;
-    padding: 80px 0 10px 0;
+    padding: 80px 0 20px 0;
     box-shadow: 0 5px 10px #1a1a1d23;
   }
 
@@ -917,13 +966,13 @@ p {
   }
 
   .navbar .bar a {
+    letter-spacing: 0.1em;
     color: white;
     cursor: pointer;
     text-decoration: none;
-    
   }
 
-  .navbar .bar p{
+  .navbar .bar p {
     font-size: 20px;
   }
 

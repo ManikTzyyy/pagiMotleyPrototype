@@ -1,3 +1,12 @@
+#product-show .card-product .button-buy-mobile {
+  display: none;
+}
+
+#product-show .content {
+  gap: 10px;
+  
+}
+
 @media (max-width: 480px) {
   #product-show .card-product {
     position: relative;
@@ -11,7 +20,7 @@
     display: none;
   }
   #product-show .card-product .button-buy-mobile {
-    
+    display: block;
     position: absolute;
     top: 15px;
     right: 10px;
@@ -37,9 +46,9 @@
 
   #product-show .card-product .container-info .price {
     gap: 5px;
-    
     justify-content: center;
     align-items: center;
+    text-align: center;
   }
   #product-show .card-product .container-info .price h4 {
     font-size: 1em;
