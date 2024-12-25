@@ -16,11 +16,21 @@
   justify-content: center;
 }
 
+.card-product .text {
+  text-align: start;
+  
+}
+
 @media (max-width: 480px) {
   #product-show .content {
     width: 100%;
     gap: 0;
     justify-content: space-evenly;
+  }
+
+  .card-product .text {
+    text-align: center;
+    
   }
 
   #product-show .content {
