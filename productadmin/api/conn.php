@@ -1,9 +1,9 @@
 <?php
 // Konfigurasi database
-$host = 'localhost'; // Server database
-$username = 'root'; // Username database
+$host = ''; // Server database
+$username = ''; // Username database
 $password = ''; // Password database
-$database = 'pagimotley'; // Nama database
+$database = ''; // Nama database
 
 // Membuat koneksi
 $conn = new mysqli($host, $username, $password, $database);
