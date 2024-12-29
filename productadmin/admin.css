@@ -1,0 +1,78 @@
+#table-product {
+    position: relative;
+    max-width: 100vw;
+    overflow: hidden;
+    
+}
+
+#table-product .button-wrapper-add {
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+#table-product{
+    font-size: 12px;
+}
+#table-product th{
+    font-weight: 700;
+}
+
+.button-fix {
+    bottom: 10px;
+    left: 10px;
+    position: fixed;
+    z-index: 99;
+}
+
+.button-fix a{
+    text-decoration: none;
+    padding: 15px;
+   
+}
+
+
+#table-product .img-wrapper{
+    overflow: hidden;
+    width: 100px;
+    height: 100px;
+}
+
+
+#table-product .img-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+#table-product .button-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+#table-product .container {
+    overflow: scroll;
+    scrollbar-width: none;
+}
+#table-product .container::-webkit-scrollbar {
+    display: none;
+}
+
+#footer .content {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+@media (max-width: 480px){
+    #footer .social {
+        width: auto;
+      }
+}
